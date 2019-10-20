@@ -1,0 +1,7 @@
+urbane AND common_jogging_track, 5
+mutton OR wisky, 9
+mutton AND wisky, 3
+high_price AND avg_amen, 8
+fruit_salad OR ice_cream, 7
+lemonade, 5
+NOT wisky OR lemonade, 9

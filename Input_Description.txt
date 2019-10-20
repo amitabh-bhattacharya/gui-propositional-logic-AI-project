@@ -1,0 +1,54 @@
+Input file description:
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+A_Input.txt - This file contains Attributes in CNF form. The sample attributes taken as input are:
+
+location: rustic, urbane
+price: high_price, low_price
+internet: net, no_net
+amenities: sofisticated, avg_amen
+welcome_drink: smoothie, lemonade
+apetizer: soup, salad
+entree: mutton, manchurian
+drink: wisky, beer
+dessert: fruit_salad, ice_cream
+jogging_track: private_jogging_track, common_jogging_track
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+HC_Input.txt - This file contains hard constraints in CNF form. The sample values taken as input are:
+
+NOT urbane OR low_price
+NOT net OR wisky
+NOT wisky OR mutton OR manchurian
+NOT high_price OR wisky
+NOT high_price OR sofisticated
+NOT urbane OR private_jogging_track
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+P_Input.txt - This file contains a list of preferences. The sample values taken as input are:
+
+urbane AND common_jogging_track, 5
+mutton OR wisky, 9
+mutton AND wisky, 3
+high_price AND avg_amen, 8
+fruit_salad OR ice_cream, 7
+lemonade, 5
+NOT wisky OR lemonade, 9
+
+------------------------------------------------------------------------------------------------------------------------------------------- 
+
+Three temporary files named:
+
+hc_clasp_file.txt (Hard constraints input file to clasp , 
+hc_clasp_output.txt, 
+pref_clasp_file.txt 
+
+shall be created, on the fly, by the program during execution. These files will be created, populated and removed after the completion of the job.
+
+
+
+
+

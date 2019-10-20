@@ -1,0 +1,6 @@
+NOT urbane OR low_price
+NOT net OR wisky
+NOT wisky OR mutton OR manchurian
+NOT high_price OR wisky
+NOT high_price OR sofisticated
+NOT urbane OR private_jogging_track

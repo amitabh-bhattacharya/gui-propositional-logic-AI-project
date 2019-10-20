@@ -1,0 +1,10 @@
+location: rustic, urbane
+price: high_price, low_price
+internet: net, no_net
+amenities: sofisticated, avg_amen
+welcome_drink: smoothie, lemonade
+apetizer: soup, salad
+entree: mutton, manchurian
+drink: wisky, beer
+dessert: fruit_salad, ice_cream
+jogging_track: private_jogging_track, common_jogging_track
