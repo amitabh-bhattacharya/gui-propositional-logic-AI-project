@@ -12,7 +12,7 @@ This project is an easy-to-use GUI (using the Python Tkinter module) for collect
 #### The system supports the following reasoning tasks -
 
 •	Existence of feasible objects: deciding whether there are feasible objects w.r.t H, that is, whether there are models of H that are truth assignments making H true.
-•	Exemplification: generating, if possible, two random feasible objects, and showing the preference between the two (strict preference  or equivalence) w.r.t T.
+•	Exemplification: generating, two random feasible objects, and showing the preference between the two (strict preference  or equivalence) w.r.t T.
 •	Optimization: finding an optimal object w.r.t T.
 •	Omni-optimization: finding all optimal objects w.r.t T.
 
