@@ -1,24 +1,40 @@
 ## AI gui project using python tkinter
 
-This project is an easy-to-use GUI (using the Python Tkinter module) for collecting names of attributes and their values, hard constraints, and preferences.
+### Project description
 
-### Packages required to execute the project
+This project is an easy-to-use GUI (using the Python Tkinter module) for collecting names of attributes and their values, hard constraints, and preferences. The output of the project is providing of reasoning. 
+
+   Attributes (A) in this project are binary.
+   Hard constraints (H) are represented as propositional formulas in the Conjunctional Normal Form (CNF).
+   The system supports preferences (T) in the preference language of penalty logic. Formulas involved in the preference theories are of
+  CNF as well.
+  
+#### The system supports the following reasoning tasks -
+
+   Existence of feasible objects: deciding whether there are feasible objects w.r.t H, that is, whether there are models of H that are
+  truth assignments making H true.
+   Exemplification: generating, if possible, two random feasible objects, and showing the preference between the two (strict preference
+  or equivalence) w.r.t T.
+   Optimization: finding an optimal object w.r.t T.
+   Omni-optimization: finding all optimal objects w.r.t T.
+
+#### Packages used -
 
 Tkinter, ScrolledText, subprocess, tkMessageBox
+
+#### Project execution -
 
 The project should be unpacked in place where there is a permission for the current user to create new files. During the course of the program execution project3 will create new files. Those files will be deleted when the purpose is achieved excepth the last file. The files that would be created on the fly are hc_clasp_file.txt, hc_clasp_output.txt, 
 pref_clasp_file.txt
 
 Input_Description.txt file provides a detailed explanation of all the input files required as input to the project.
 
-#### Running the project:
-
 1.) Open cmd editor for Windows
 2.) Enter the below command
 
 >python project.py
 
-##### Execution steps:
+#### Execution steps -
 
 Once the GUI is open, by executing the above command, we should do mainly 7 different operations to start quering the engine. The sequesnce of operations are explained below:
 
@@ -39,6 +55,6 @@ Make a note that this project uses clasp software (provided in the repository) t
 Step 7.) A MUST OPERATION BEFORE QUERING THE PROJECT. Click -> "PROCESS DATA (Must before query execution)". This performs all computations of feasible objects from the w.r.t. the input data. It also calculates the preference values of all the feasible objects. It is a time consuming job (around 5 minutes time in average computer).
 
 
-#### Queries/Results 
+#### Queries/Results -
 
 There is separate area for each query requested in the project. Clicking on the appropriate button will answer the query in the respective display text box. Make a note that each query can be executed multiple times for different results.
