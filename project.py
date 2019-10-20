@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-This program is towards the CAP 4630/5605 AI project-3.
-
-Author: Amitabh Bhattacharya
-Version: 3/20/2019
-Email: n01412146@ospreys.unf.edu
-
-"""
+# Author: Amitabh Bhattacharya
 
 import Tkinter as tk
 from Tkinter import *
@@ -19,7 +12,7 @@ import tkMessageBox
 root = tk.Tk()
 root.geometry("900x675")
 
-root.title("Project 3: CAP 4630/5605 - Introduction to AI (Spring 2019)")
+root.title("GUI AI-project for propositional logic")
 
 #####################################################################
 
