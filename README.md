@@ -7,7 +7,6 @@ This project is an easy-to-use GUI (using the Python Tkinter module) for collect
  •	Attributes (A) in this project are binary.
  •	Hard constraints (H) are represented as propositional formulas in the Conjunctional Normal Form (CNF).
  •	The system supports preferences (T) in the preference language of penalty logic. Formulas involved in the preference theories are of    CNF as well.
-
   
 #### The system supports the following reasoning tasks -
 
